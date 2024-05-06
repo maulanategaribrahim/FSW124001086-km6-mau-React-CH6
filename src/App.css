@@ -1,0 +1,266 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../font/Helvetica.ttf") format("truetype");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+
+.nav-link {
+  margin-left: 20px;
+}
+
+nav ul li {
+  height: 36px;
+  font-weight: 400;
+}
+
+nav ul li .register {
+  font-weight: 700;
+  background-color: #5cb85f !important;
+  border-radius: 2px;
+  width: 81px;
+}
+
+.offcanvas-header h5 {
+  font-weight: 700;
+}
+
+#main-section {
+  background-color: #f1f3ff;
+  height: 100%;
+  margin-top: -76px;
+}
+
+.main-text-judul,
+.gs-text-judul h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.main-btn,
+.btn-search {
+  font-weight: 700;
+  background-color: #5cb85f !important;
+  border-radius: 2px !important;
+}
+
+.main-img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.main-img-container img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+
+.main-bg-img {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0d28a6;
+  border-radius: 60px 0px 0px 0px;
+}
+
+.ourservice-text-judul,
+.whyUs-judul h2,
+.testi-judul h2,
+.faq-judul h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+#ourservice-section ul {
+  padding: 0;
+}
+
+#ourservice-section ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#ourservice-section ul li::before {
+  content: url("images/check.svg");
+  margin-right: 10px;
+}
+
+#whyUs-section .card-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+#testimonial-section .testi-content {
+  background-color: #f1f3ff;
+  max-width: 900px;
+}
+.carousel-control {
+  background-color: white;
+  border: 0;
+}
+
+.btn-carousel .img {
+  border-radius: 50%;
+}
+
+.getstarted-container {
+  height: 326px;
+  background-color: #0d28a6;
+  border-radius: 13px;
+}
+
+#footer .footer-nav {
+  font-weight: 400;
+}
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  font-weight: bold;
+}
+#search {
+  position: relative;
+  margin-top: -50px;
+  z-index: 100;
+}
+.search-container {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 13px;
+}
+.search-container .search-card .search__time .form-select {
+  background-image: url("../images/fi_clock.png");
+  background-size: 20px auto;
+}
+.search-container .search-card .form-select:hover {
+  border: 1px solid #5cb85f;
+  border-radius: 2px;
+}
+.search-container .search-card .form-control:hover {
+  border: 1px solid #5cb85f;
+  border-radius: 2px;
+}
+.search-container .search-card .form-select option:hover,
+.search-container .search-card .form-select option:checked {
+  background: #c9e7ca;
+  color: #5cb85f;
+}
+
+.cars .card .card-img-top {
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+}
+.cars .card .cars__p {
+  height: 100px;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .main-text {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .main-img {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .whyUs-judul,
+  .profile,
+  .faq-judul {
+    text-align: center;
+  }
+
+  .testi-text {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .testi-rate {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: -150px;
+  }
+
+  .getstarted-container {
+    height: 100%;
+    padding: 30px 80px 30px;
+  }
+
+  .accordion {
+    margin-top: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .main-text {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .main-img {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .whyUs-judul {
+    text-align: center;
+  }
+
+  .testi-text {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .profile {
+    text-align: center;
+  }
+
+  .testi-rate {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: -120px;
+    padding: 0;
+  }
+
+  .faq-judul {
+    text-align: center;
+  }
+
+  .accordion {
+    margin-top: 20px !important;
+  }
+
+  .footer-nav ul li {
+    margin-bottom: 1rem;
+
+  }
+}
